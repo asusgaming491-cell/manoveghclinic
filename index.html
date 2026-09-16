@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manovegh — Mind Neuro Clinic | Dr. S. Ahmed, Phulwari Sharif, Patna</title>
+    <meta name="description" content="Manovegh Mind Neuro Clinic: neurological and mental health consultations with Dr. S. Ahmed, MBBS, MD. Wednesdays 11 AM–3 PM, Phulwari Sharif, Patna. Book on WhatsApp." />
+    <meta name="theme-color" content="#123447" />
+    <meta name="author" content="Dr. S. Ahmed, Manovegh Mind Neuro Clinic" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- ===== Icon / logo / favicon (icon.jpeg) =====
+         Place icon.jpeg next to this HTML file. If you keep it in an
+         /assets folder instead, change every "icon.jpeg" below to
+         "assets/icon.jpeg" — the same applies to the <img> tags in the page. -->
+    <link rel="icon" href="icon.jpeg" type="image/jpeg" />
+    <link rel="shortcut icon" href="icon.jpeg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="icon.jpeg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon.jpeg" />
+    <meta name="msapplication-TileImage" content="icon.jpeg" />
+    <meta name="msapplication-TileColor" content="#123447" />
+    <meta name="apple-mobile-web-app-title" content="Manovegh" />
+    <link rel="mask-icon" href="icon.jpeg" color="#1f7f83" />
+
+    <!-- Link previews (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Manovegh — Mind Neuro Clinic" />
+    <meta property="og:title" content="Manovegh — Mind Neuro Clinic | Dr. S. Ahmed" />
+    <meta property="og:description" content="Neurological and mental health consultations in Phulwari Sharif, Patna. Wednesdays, 11 AM–3 PM. Book your appointment on WhatsApp." />
+    <meta property="og:image" content="icon.jpeg" />
+    <meta property="og:image:alt" content="Manovegh Mind Neuro Clinic logo" />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Manovegh — Mind Neuro Clinic | Dr. S. Ahmed" />
+    <meta name="twitter:description" content="Neurological and mental health consultations in Phulwari Sharif, Patna. Book on WhatsApp." />
+    <meta name="twitter:image" content="icon.jpeg" />
+
+    <style>
+      :root {
+        --ink: #123447;
+        --ink-deep: #082636;
+        --teal: #1f7f83;
+        --teal-dark: #17696d;
+        --mint: #e7f5f2;
+        --cream: #f8f6f0;
+        --coral: #e56f54;
+        --white: #ffffff;
+        --muted: #5c7079;
+        --line: rgba(18, 52, 71, 0.14);
+        --shadow: 0 18px 45px rgba(8, 38, 54, 0.13);
+        --wa: #25d366;
+        --wa-deep: #128c7e;
+        --radius: 16px;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--cream);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+        overflow-x: hidden;
+      }
+      a { color: inherit; text-decoration: none; }
+      img { max-width: 100%; }
+      :focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; border-radius: 6px; }
+      .container { width: min(1120px, calc(100% - 40px)); margin: auto; }
+      .skip-link { position: absolute; left: -999px; top: 0; z-index: 100; padding: 12px 18px; background: var(--ink); color: #fff; border-radius: 0 0 10px 0; font-weight: 700; }
+      .skip-link:focus { left: 0; }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+      .eyebrow {
+        display: inline-flex; align-items: center; gap: 8px;
+        margin: 0 0 14px; color: var(--teal); font-size: .78rem;
+        font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+      }
+      .eyebrow::before { content: ""; width: 24px; height: 2px; background: currentColor; }
+      h1, h2, h3, h4, p { margin-top: 0; }
+      h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin-bottom: 20px; font-size: clamp(2.7rem, 6vw, 5.3rem); letter-spacing: -.045em; }
+      h2 { font-size: clamp(2rem, 3.6vw, 3.2rem); letter-spacing: -.035em; margin-bottom: 16px; }
+      h3 { font-size: 1.35rem; margin-bottom: 8px; }
+      .section { padding: 94px 0; }
+      .section-intro { max-width: 640px; margin-bottom: 42px; color: var(--muted); font-size: 1.04rem; }
+
+      /* ---------- Top bar ---------- */
+      .topbar { background: var(--ink-deep); color: #dcefed; font-size: .88rem; }
+      .topbar-inner { min-height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+      .topbar a { color: var(--white); font-weight: 700; }
+      .topbar a:hover { color: #9ee0d4; }
+      .status-chip { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; }
+      .status-dot { width: 9px; height: 9px; border-radius: 50%; background: #9aa9ad; flex: 0 0 auto; }
+      .status-chip.is-open .status-dot { background: #46d17f; box-shadow: 0 0 0 0 rgba(70, 209, 127, .6); animation: pulse 2.2s infinite; }
+      @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(70, 209, 127, .55); }
+        70% { box-shadow: 0 0 0 9px rgba(70, 209, 127, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(70, 209, 127, 0); }
+      }
+
+      /* ---------- Header / brand ---------- */
+      header { position: sticky; top: 0; z-index: 40; background: rgba(248, 246, 240, .93); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: border-color .2s, box-shadow .2s; }
+      header.scrolled { border-color: var(--line); box-shadow: 0 6px 20px rgba(8, 38, 54, .06); }
+      .nav { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+      .brand { display: flex; align-items: center; gap: 12px; }
+      .brand-logo { display: block; width: 52px; height: 52px; flex: 0 0 auto; border-radius: 14px; object-fit: cover; background: var(--white); border: 1px solid var(--line); box-shadow: 0 4px 12px rgba(8, 38, 54, .1); }
+      .brand-text { display: grid; line-height: 1.15; }
+      .brand-name { font-family: Georgia, serif; font-size: 1.32rem; letter-spacing: -.02em; font-weight: 700; }
+      .brand-tag { color: var(--teal); font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      .nav-links { display: flex; align-items: center; gap: 25px; color: #40575f; font-size: .92rem; font-weight: 700; }
+      .nav-links a:hover { color: var(--teal); }
+      .menu-button { display: none; padding: 9px; border: 1px solid var(--line); border-radius: 10px; background: var(--white); color: var(--ink); cursor: pointer; }
+
+      /* ---------- Buttons ---------- */
+      .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; border: 1px solid var(--ink); min-height: 49px; padding: 0 21px; border-radius: 999px; font-weight: 800; font-size: .92rem; cursor: pointer; font-family: inherit; transition: transform .2s, background .2s, color .2s, box-shadow .2s; }
+      .button:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(8,38,54,.12); }
+      .button-primary { background: var(--ink); color: var(--white); }
+      .button-primary:hover { background: var(--teal); border-color: var(--teal); }
+      .button-ghost { background: transparent; }
+      .button-light { border-color: rgba(255,255,255,.4); color: var(--white); background: transparent; }
+      .button-light:hover { background: var(--white); color: var(--ink); }
+      .button-whatsapp { background: var(--wa); border-color: var(--wa); color: #06351c; width: 100%; }
+      .button-whatsapp:hover { background: #1fbe5b; border-color: #1fbe5b; }
+      .button svg { width: 18px; height: 18px; flex: 0 0 auto; }
+      .button-sm { min-height: 40px; padding: 0 16px; font-size: .84rem; }
+
+      /* ---------- Hero ---------- */
+      .hero { overflow: hidden; position: relative; padding: 80px 0 72px; background: var(--mint); }
+      .hero::before { content: ""; position: absolute; width: 670px; height: 670px; top: -330px; right: -140px; border-radius: 50%; border: 1px solid rgba(31,127,131,.18); box-shadow: 0 0 0 45px rgba(31,127,131,.06), 0 0 0 100px rgba(31,127,131,.045); }
+      .hero-grid { position: relative; display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 58px; }
+      .hero p.lead { max-width: 600px; margin-bottom: 30px; color: #3c5a64; font-size: clamp(1.05rem, 2vw, 1.25rem); }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+      .hero-note { display: flex; align-items: center; gap: 10px; margin-top: 25px; color: var(--muted); font-size: .88rem; font-weight: 700; }
+      .hero-note span { display: grid; place-items: center; width: 25px; height: 25px; border-radius: 50%; color: var(--white); background: var(--teal); flex: 0 0 auto; }
+
+      .doctor-card { position: relative; padding: 12px 12px 0; border-radius: 210px 210px 24px 24px; background: linear-gradient(145deg, #d0e9e4, #f9fcfb); box-shadow: var(--shadow); }
+      .doctor-portrait { min-height: 420px; position: relative; overflow: hidden; display: grid; place-items: center; border-radius: 198px 198px 15px 15px; background: linear-gradient(145deg, #80b7b4, #d6e9e0); }
+      .doctor-portrait::before { content: ""; position: absolute; width: 250px; height: 250px; border-radius: 50%; top: 38px; background: rgba(255,255,255,.36); }
+      .doctor-portrait svg { position: relative; width: min(78%, 340px); color: var(--ink); }
+      .portrait-crest { position: absolute; z-index: 2; right: 14px; top: 16px; width: 56px; height: 56px; border-radius: 16px; object-fit: cover; background: var(--white); padding: 4px; box-shadow: 0 8px 20px rgba(8,38,54,.18); }
+      .portrait-label { position: absolute; left: -35px; bottom: 33px; max-width: 235px; padding: 16px 19px; border-radius: 12px; background: var(--white); box-shadow: var(--shadow); }
+      .portrait-label strong { display: block; font-family: Georgia, serif; font-size: 1.16rem; }
+      .portrait-label span { display: block; color: var(--teal); font-size: .78rem; font-weight: 800; }
+
+      /* ---------- Trust bar ---------- */
+      .trust-bar { background: var(--ink); color: var(--white); }
+      .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+      .trust-item { min-height: 105px; display: flex; align-items: center; gap: 14px; padding: 22px 24px; border-right: 1px solid rgba(255,255,255,.17); }
+      .trust-item:last-child { border-right: 0; }
+      .trust-icon { width: 42px; height: 42px; display: grid; place-items: center; flex: 0 0 auto; border-radius: 50%; background: rgba(231,245,242,.12); color: #9ee0d4; }
+      .trust-item b { display: block; font-size: .9rem; }
+      .trust-item span { display: block; color: #b8d2d1; font-size: .78rem; }
+
+      /* ---------- About ---------- */
+      .about { background: var(--cream); }
+      .about-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: 78px; align-items: start; }
+      .about-aside { padding: 26px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+      .about-aside p { margin: 0; font-family: Georgia, serif; font-size: 1.5rem; line-height: 1.25; }
+      .about-aside strong { color: var(--teal); }
+      .aside-mark { display: block; width: 46px; height: 46px; margin-bottom: 16px; border-radius: 12px; object-fit: cover; border: 1px solid var(--line); }
+      .doctor-copy p { color: var(--muted); }
+      .credentials { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 26px; }
+      .credential { padding: 17px; border-left: 3px solid var(--coral); background: #fffdf9; }
+      .credential b { display: block; font-size: .84rem; }
+      .credential span { display: block; margin-top: 2px; color: var(--muted); font-size: .82rem; }
+
+      /* ---------- Services ---------- */
+      .services { background: #f1f7f5; }
+      .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .service { display: flex; flex-direction: column; min-height: 250px; padding: 28px; border-radius: 15px; background: var(--white); border: 1px solid transparent; transition: transform .2s, border-color .2s, box-shadow .2s; }
+      .service:hover, .service:focus-within { transform: translateY(-5px); border-color: #b9dad5; box-shadow: 0 14px 30px rgba(8,38,54,.08); }
+      .service-icon { width: 48px; height: 48px; display: grid; place-items: center; margin-bottom: 30px; border-radius: 13px; background: var(--mint); color: var(--teal); }
+      .service-icon svg { width: 26px; height: 26px; }
+      .service p { margin: 0 0 18px; color: var(--muted); font-size: .91rem; }
+      .service-ask { margin-top: auto; display: inline-flex; align-items: center; gap: 7px; color: var(--wa-deep); font-size: .84rem; font-weight: 800; }
+      .service-ask svg { width: 15px; height: 15px; }
+      .service-ask:hover { text-decoration: underline; }
+
+      /* ---------- Steps ---------- */
+      .steps { background: var(--cream); }
+      .step-grid { counter-reset: step; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+      .step { position: relative; padding: 28px 26px 26px; border-radius: 15px; background: var(--white); border: 1px solid var(--line); }
+      .step::before { counter-increment: step; content: counter(step); display: grid; place-items: center; width: 34px; height: 34px; margin-bottom: 16px; border-radius: 50%; background: var(--ink); color: var(--white); font-weight: 800; font-size: .9rem; }
+      .step p { margin: 0; color: var(--muted); font-size: .92rem; }
+
+      /* ---------- Appointment + form ---------- */
+      .appointment { overflow: hidden; position: relative; color: var(--white); background: var(--teal); }
+      .appointment::after { content: ""; position: absolute; right: -90px; bottom: -220px; width: 500px; height: 500px; border: 55px solid rgba(255,255,255,.08); border-radius: 50%; }
+      .appointment-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr .9fr; gap: 55px; align-items: start; }
+      .appointment .eyebrow { color: #bcece3; }
+      .appointment h2 { margin-bottom: 14px; }
+      .appointment p { color: #d7f0ec; }
+      .appointment-points { display: grid; gap: 10px; margin: 26px 0 30px; padding: 0; list-style: none; }
+      .appointment-points li { display: flex; gap: 11px; align-items: flex-start; color: #e4f4f1; font-size: .95rem; }
+      .appointment-points li::before { content: "✓"; display: grid; place-items: center; flex: 0 0 auto; width: 22px; height: 22px; margin-top: 2px; border-radius: 50%; background: rgba(255,255,255,.18); font-size: .72rem; font-weight: 800; }
+      .phone-list { display: grid; gap: 8px; margin: 0 0 8px; }
+      .phone-list a { display: inline-flex; align-items: center; gap: 10px; font-size: 1.18rem; font-weight: 800; }
+      .phone-list a:hover { color: #bcece3; }
+      .phone-list svg { width: 18px; flex: 0 0 auto; }
+
+      .booking-card { padding: 26px; border-radius: var(--radius); background: var(--white); color: var(--ink); box-shadow: var(--shadow); }
+      .booking-card h3 { margin-bottom: 4px; }
+      .booking-card > p { margin-bottom: 20px; color: var(--muted); font-size: .89rem; }
+      .field { margin-bottom: 14px; }
+      .field label { display: block; margin-bottom: 6px; font-size: .8rem; font-weight: 800; color: #3f5a64; }
+      .field input, .field select, .field textarea {
+        width: 100%; min-height: 46px; padding: 11px 13px; border: 1px solid var(--line); border-radius: 10px;
+        background: #fcfdfc; color: var(--ink); font: inherit; font-size: .93rem;
+      }
+      .field textarea { min-height: 84px; resize: vertical; }
+      .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--teal); outline: none; box-shadow: 0 0 0 3px rgba(31,127,131,.15); }
+      .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .form-note { margin: 12px 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
+      .form-error { display: none; margin: 0 0 12px; padding: 10px 12px; border-radius: 9px; background: #fdeeea; color: #a8412a; font-size: .84rem; font-weight: 700; }
+      .form-error.show { display: block; }
+
+      /* ---------- FAQ ---------- */
+      .faq { background: #f1f7f5; }
+      .faq-list { display: grid; gap: 12px; max-width: 820px; }
+      .faq-item { padding: 4px 22px; border-radius: 13px; background: var(--white); border: 1px solid var(--line); }
+      .faq-item summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0; cursor: pointer; font-weight: 800; font-size: 1rem; list-style: none; }
+      .faq-item summary::-webkit-details-marker { display: none; }
+      .faq-item summary::after { content: "+"; flex: 0 0 auto; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--mint); color: var(--teal); font-size: 1.1rem; font-weight: 700; transition: transform .2s; }
+      .faq-item[open] summary::after { content: "−"; transform: rotate(180deg); }
+      .faq-item p { margin: 0 0 18px; color: var(--muted); font-size: .93rem; max-width: 65ch; }
+
+      /* ---------- Location ---------- */
+      .location { background: var(--cream); }
+      .location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; align-items: stretch; }
+      .address-card { display: flex; flex-direction: column; padding: 44px; border-radius: var(--radius); background: var(--white); border: 1px solid var(--line); }
+      .address-card address { margin-bottom: 24px; color: var(--muted); font-size: 1.04rem; font-style: normal; line-height: 1.7; }
+      .address-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
+      .map-art { position: relative; overflow: hidden; min-height: 340px; border-radius: var(--radius); background: #bdded8; }
+      .map-art::before, .map-art::after { content: ""; position: absolute; border: 18px solid rgba(255,255,255,.68); border-radius: 48%; transform: rotate(-24deg); }
+      .map-art::before { width: 570px; height: 100px; left: -108px; top: 86px; }
+      .map-art::after { width: 460px; height: 95px; right: -130px; bottom: 60px; transform: rotate(30deg); }
+      .map-label { position: absolute; z-index: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 190px; padding: 17px; border-radius: 12px; background: var(--ink); color: var(--white); text-align: center; box-shadow: var(--shadow); }
+      .map-label img { width: 40px; height: 40px; margin: -34px auto 8px; display: block; border-radius: 11px; object-fit: cover; border: 3px solid var(--white); background: var(--white); }
+      .map-label b { display: block; font-size: .88rem; }
+      .map-label small { color: #b9d5d2; font-size: .72rem; }
+
+      /* ---------- Emergency note ---------- */
+      .notice { padding: 0 0 70px; background: var(--cream); }
+      .notice-inner { display: flex; gap: 16px; align-items: flex-start; padding: 22px 26px; border-radius: 13px; border: 1px solid rgba(229,111,84,.35); background: #fff6f3; }
+      .notice-inner svg { width: 24px; height: 24px; flex: 0 0 auto; color: var(--coral); margin-top: 2px; }
+      .notice-inner p { margin: 0; font-size: .92rem; color: #7a4638; max-width: 70ch; }
+
+      /* ---------- Footer ---------- */
+      footer { padding: 48px 0 28px; color: #b8d2d1; background: var(--ink-deep); font-size: .85rem; }
+      .footer-top { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 34px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,.12); }
+      .footer-brand { display: flex; gap: 13px; align-items: flex-start; }
+      .footer-logo { width: 54px; height: 54px; flex: 0 0 auto; border-radius: 14px; object-fit: cover; background: var(--white); padding: 3px; }
+      .footer-brand b { display: block; color: var(--white); font-family: Georgia, serif; font-size: 1.2rem; }
+      .footer-brand p { margin: 6px 0 0; max-width: 34ch; }
+      .footer-col h4 { margin: 0 0 12px; color: var(--white); font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; }
+      .footer-col ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+      .footer-col a:hover { color: var(--white); }
+      .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 22px; font-size: .8rem; }
+      footer b { color: var(--white); }
+
+      /* ---------- WhatsApp widget ---------- */
+      .wa-widget { position: fixed; z-index: 60; right: 22px; bottom: 21px; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+      .wa-panel {
+        width: min(330px, calc(100vw - 36px));
+        border-radius: 18px; overflow: hidden; background: var(--white);
+        box-shadow: 0 22px 50px rgba(8,38,54,.28);
+        transform: translateY(14px) scale(.96); opacity: 0; pointer-events: none;
+        transition: transform .22s ease, opacity .22s ease;
+      }
+      .wa-panel.open { transform: translateY(0) scale(1); opacity: 1; pointer-events: auto; }
+      .wa-head { display: flex; align-items: center; gap: 11px; padding: 15px 16px; background: var(--wa-deep); color: #fff; }
+      .wa-head img { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; background: #fff; flex: 0 0 auto; }
+      .wa-head b { display: block; font-size: .95rem; }
+      .wa-head small { display: block; font-size: .73rem; color: #cdece5; }
+      .wa-close { margin-left: auto; padding: 4px; border: 0; background: transparent; color: #cdece5; cursor: pointer; font-size: 1.2rem; line-height: 1; }
+      .wa-close:hover { color: #fff; }
+      .wa-body { padding: 16px; background: #ece5dd; }
+      .wa-bubble { position: relative; max-width: 88%; padding: 11px 13px; border-radius: 0 12px 12px 12px; background: #fff; font-size: .88rem; color: #14342f; box-shadow: 0 2px 5px rgba(0,0,0,.08); }
+      .wa-bubble time { display: block; margin-top: 4px; color: #93a09d; font-size: .68rem; text-align: right; }
+      .wa-options { display: grid; gap: 8px; margin-top: 14px; }
+      .wa-options a { display: flex; align-items: center; gap: 9px; padding: 11px 13px; border-radius: 11px; background: #fff; border: 1px solid rgba(8,38,54,.08); font-size: .85rem; font-weight: 700; color: var(--ink); transition: background .15s, transform .15s; }
+      .wa-options a:hover { background: #f2fbf6; transform: translateX(2px); }
+      .wa-options span { display: grid; place-items: center; width: 26px; height: 26px; flex: 0 0 auto; border-radius: 50%; background: var(--mint); font-size: .85rem; }
+      .wa-foot { padding: 11px 16px; background: #f6f6f4; color: var(--muted); font-size: .72rem; text-align: center; }
+
+      .wa-launcher { position: relative; display: grid; place-items: center; width: 60px; height: 60px; border: 0; border-radius: 50%; color: #08391d; background: var(--wa); cursor: pointer; box-shadow: 0 10px 26px rgba(8,38,54,.28); transition: transform .2s; }
+      .wa-launcher:hover { transform: scale(1.07); }
+      .wa-launcher svg { width: 31px; height: 31px; }
+      .wa-launcher::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--wa); animation: ring 2.6s ease-out infinite; }
+      @keyframes ring {
+        0% { transform: scale(1); opacity: .7; }
+        70% { transform: scale(1.55); opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .wa-tip { position: absolute; right: 74px; bottom: 14px; white-space: nowrap; padding: 9px 14px; border-radius: 999px; background: var(--white); color: var(--ink); font-size: .82rem; font-weight: 700; box-shadow: 0 8px 20px rgba(8,38,54,.18); transition: opacity .25s, transform .25s; }
+      .wa-tip[hidden] { display: none; }
+      .wa-tip.hide { opacity: 0; transform: translateX(8px); }
+
+      .to-top { position: fixed; z-index: 50; right: 26px; bottom: 96px; display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 50%; background: var(--white); color: var(--ink); cursor: pointer; opacity: 0; pointer-events: none; transition: opacity .25s, transform .2s; }
+      .to-top.show { opacity: 1; pointer-events: auto; }
+      .to-top:hover { transform: translateY(-3px); }
+
+      /* ---------- Reveal ---------- */
+      .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+      .reveal.visible { opacity: 1; transform: none; }
+
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+        .reveal { opacity: 1; transform: none; }
+      }
+
+      @media (max-width: 980px) {
+        .trust-grid { grid-template-columns: repeat(2, 1fr); }
+        .trust-item:nth-child(2) { border-right: 0; }
+        .service-grid, .step-grid { grid-template-columns: repeat(2, 1fr); }
+        .about-grid { gap: 44px; }
+        .footer-top { grid-template-columns: 1fr 1fr; }
+      }
+
+      @media (max-width: 780px) {
+        .container { width: min(100% - 32px, 620px); }
+        .topbar-inner { justify-content: center; text-align: center; }
+        .topbar-phones { display: none; }
+        .nav { min-height: 70px; }
+        .brand-logo { width: 44px; height: 44px; }
+        .brand-name { font-size: 1.14rem; }
+        .menu-button { display: block; }
+        .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; padding: 10px 16px 18px; background: var(--cream); border-bottom: 1px solid var(--line); box-shadow: 0 14px 26px rgba(8,38,54,.08); }
+        .nav-links.open { display: flex; }
+        .nav-links a { padding: 13px 0; }
+        .nav-links .button { margin-top: 8px; }
+        .hero { padding: 58px 0 72px; }
+        .hero-grid, .about-grid, .appointment-grid, .location-grid { grid-template-columns: 1fr; gap: 42px; }
+        .doctor-card { width: min(100%, 410px); margin: 0 auto; }
+        .doctor-portrait { min-height: 350px; }
+        .portrait-label { left: 12px; bottom: -22px; }
+        .trust-grid, .service-grid, .step-grid { grid-template-columns: 1fr; }
+        .trust-item { min-height: 80px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.17); }
+        .trust-item:last-child { border-bottom: 0; }
+        .section { padding: 70px 0; }
+        .about-aside { display: none; }
+        .map-art { min-height: 265px; }
+        .address-card { padding: 32px 26px; }
+        .footer-top { grid-template-columns: 1fr; gap: 26px; }
+        .wa-tip { display: none; }
+      }
+
+      @media (max-width: 430px) {
+        h1 { font-size: 2.6rem; }
+        .hero-actions .button { width: 100%; }
+        .credentials, .field-row { grid-template-columns: 1fr; }
+        .footer-inner { align-items: flex-start; flex-direction: column; }
+        .address-actions .button { width: 100%; }
+      }
+
+      @media print {
+        header, .topbar, .wa-widget, .to-top, .hero::before, .map-art { display: none !important; }
+        body { background: #fff; }
+        .section { padding: 24px 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span class="status-chip" id="statusChip">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="statusText">Checking clinic hours…</span>
+        </span>
+        <span class="topbar-phones">Call for appointments: <a href="tel:+918809530203">88095 30203</a> · <a href="tel:+918084657424">80846 57424</a></span>
+      </div>
+    </div>
+
+    <header id="header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Manovegh Mind Neuro Clinic — home">
+          <img class="brand-logo" src="icon.jpeg" alt="Manovegh Mind Neuro Clinic logo" width="52" height="52" />
+          <span class="brand-text">
+            <span class="brand-name">Manovegh</span>
+            <span class="brand-tag">Mind Neuro Clinic</span>
+          </span>
+        </a>
+        <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">Doctor</a>
+          <a href="#services">Treatments</a>
+          <a href="#visit">Your visit</a>
+          <a href="#faq">Questions</a>
+          <a href="#location">Location</a>
+          <a href="#appointment" class="button button-primary">Book appointment</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Mind Neuro Clinic · Patna</p>
+            <h1>Clarity, comfort, and care for every mind.</h1>
+            <p class="lead">Personalised neurological and mental health consultations with <strong>Dr. S. Ahmed</strong> — supporting you and your family through every step of your care.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to book an appointment with Dr. S. Ahmed." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Zm-8.4 18a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.6.9 1-3.5-.3-.4a9.8 9.8 0 1 1 8.3 4.6Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.9-.9-3.2-1.6-4.5-3.7-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.6l-.9-2.1c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3s1.2 3.5 1.4 3.7c.2.2 2.4 3.7 5.9 5.1 2.2.9 3 .9 4.1.8.7-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+                Book on WhatsApp
+              </a>
+              <a class="button button-ghost" href="#services">Explore treatments</a>
+            </div>
+            <p class="hero-note"><span aria-hidden="true">✓</span> Convenient care in Phulwari Sharif, Patna</p>
+          </div>
+          <div class="doctor-card">
+            <img class="portrait-crest" src="icon.jpeg" alt="" aria-hidden="true" width="56" height="56" />
+            <div class="doctor-portrait" role="img" aria-label="Illustration representing Dr. S. Ahmed">
+              <svg viewBox="0 0 300 390" fill="none" aria-hidden="true">
+                <circle cx="150" cy="126" r="65" fill="#c48e6c"/>
+                <path d="M87 127c0-62 30-91 65-91 45 0 72 35 64 97-17-19-30-34-59-37-17 23-37 35-70 31Z" fill="#193d4c"/>
+                <path d="M118 139c8 7 18 7 25 0M164 139c8 7 18 7 25 0M142 168c7 4 15 4 22 0" stroke="#613f35" stroke-width="3" stroke-linecap="round"/>
+                <path d="M92 216c16-20 36-28 58-28s44 10 60 29l37 161H52l40-162Z" fill="#fdfcf9"/>
+                <path d="M122 197l28 46 28-46M99 224l-28 154M201 224l28 154" stroke="#ccdeda" stroke-width="8"/>
+                <path d="M141 257h18v50h-18z" fill="#e56f54"/>
+                <path d="M103 234c21 24 73 25 95 0" stroke="#e0b391" stroke-width="12" stroke-linecap="round"/>
+                <circle cx="106" cy="154" r="4" fill="#173642"/><circle cx="192" cy="154" r="4" fill="#173642"/>
+              </svg>
+            </div>
+            <div class="portrait-label"><strong>Dr. S. Ahmed</strong><span>MBBS, MD · Neuro Physician</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar" aria-label="Clinic highlights">
+        <div class="container trust-grid">
+          <div class="trust-item"><span class="trust-icon" aria-hidden="true">✦</span><div><b>Patient-focused care</b><span>Time to listen and guide</span></div></div>
+          <div class="trust-item"><span class="trust-icon" aria-hidden="true">◷</span><div><b>Every Wednesday</b><span>11:00 AM to 3:00 PM</span></div></div>
+          <div class="trust-item"><span class="trust-icon" aria-hidden="true">⌖</span><div><b>Easy to reach</b><span>Central Phulwari Sharif location</span></div></div>
+          <div class="trust-item"><span class="trust-icon" aria-hidden="true">✉</span><div><b>Reply on WhatsApp</b><span>Messages answered on clinic days</span></div></div>
+        </div>
+      </section>
+
+      <section class="section about reveal" id="about">
+        <div class="container about-grid">
+          <aside class="about-aside">
+            <img class="aside-mark" src="icon.jpeg" alt="" aria-hidden="true" width="46" height="46" />
+            <p>“Good neurological care begins with <strong>being heard.</strong>”</p>
+          </aside>
+          <div class="doctor-copy">
+            <p class="eyebrow">Meet your doctor</p>
+            <h2>Thoughtful care for your neurological health.</h2>
+            <p>Dr. S. Ahmed, MBBS, MD, is a Neuro Physician offering attentive consultations for concerns related to the brain, nerves, spine, and mental wellbeing. Each visit is approached with care, clear communication, and a focus on helping you take informed next steps.</p>
+            <p>Families are welcome in the consultation room. If you are supporting a parent, partner, or child, you will get a plain explanation of what is happening and what to do next — in Hindi or English, whichever is easier for you.</p>
+            <div class="credentials">
+              <div class="credential"><b>MBBS, MD</b><span>Specialist: Neuro Physician</span></div>
+              <div class="credential"><b>Wednesday clinic</b><span>Appointments from 11:00 AM to 3:00 PM</span></div>
+              <div class="credential"><b>Hindi &amp; English</b><span>Consultations in either language</span></div>
+              <div class="credential"><b>Family-friendly</b><span>Attendants welcome during the visit</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services reveal" id="services">
+        <div class="container">
+          <p class="eyebrow">Clinical care</p>
+          <h2>Conditions we consult for</h2>
+          <p class="section-intro">These are the areas of care listed in the clinic pamphlet. Message us about your specific concern and we will confirm whether a consultation is right for you. For sudden or severe symptoms, please seek emergency medical care first.</p>
+          <div class="service-grid">
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a3.5 3.5 0 0 0-5.7 2.7A3.6 3.6 0 0 0 5 12a3.7 3.7 0 0 0 2 6.4c.7 1.7 3.2 2.5 5 1.1M12 3a3.5 3.5 0 0 1 5.7 2.7A3.6 3.6 0 0 1 19 12a3.7 3.7 0 0 1-2 6.4c-.7 1.7-3.2 2.5-5 1.1M12 3v16.5M8.5 7.5c1.5.1 2.4.8 3.5 2M15.5 7.5c-1.5.1-2.4.8-3.5 2"/></svg></div>
+              <h3>Paralysis &amp; seizures</h3>
+              <p>Consultation for paralysis, repeated or sudden unconsciousness, epilepsy, facial weakness, or frothing from the mouth.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a consultation for paralysis or seizures." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 3v5M17 3v5M5 8h14v13H5zM9 12h6M12 9v6"/></svg></div>
+              <h3>Pain &amp; nerve symptoms</h3>
+              <p>Persistent pain in the body, hands or legs, back pain, joint pain, numbness, tingling, or related nerve concerns.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a consultation for nerve pain or body pain." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM12 8v4l3 2"/></svg></div>
+              <h3>Memory &amp; behaviour</h3>
+              <p>Memory loss, forgetting conversations, excessive talking, destructive behaviour, and changes in daily functioning.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a consultation for memory loss or behaviour changes." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h3l2-5 4 10 2-5h5"/></svg></div>
+              <h3>Mood, anxiety &amp; sleep</h3>
+              <p>Low mood, fear, anxiety, palpitations, sleep difficulties, panic-related symptoms, and distressing thoughts.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a consultation for anxiety, low mood, or sleep problems." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4M12 16h.01"/></svg></div>
+              <h3>Children &amp; young people</h3>
+              <p>Childhood mental health concerns, developmental difficulties, hyperactivity, and trouble focusing on studies.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a consultation for my child." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+            <article class="service">
+              <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v18M8 7c2 0 3 2 4 5 1-3 2-5 4-5M6 17c2 0 3-2 4-5 1 3 2 5 4 5"/></svg></div>
+              <h3>Habits &amp; addiction care</h3>
+              <p>Repeated checking or handwashing, phobias, and support for alcohol or other substance-related concerns.</p>
+              <a class="service-ask" data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about support for habits or addiction." href="#appointment">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Z"/></svg>
+                Ask about this on WhatsApp
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section steps reveal" id="visit">
+        <div class="container">
+          <p class="eyebrow">Your visit</p>
+          <h2>What happens, step by step</h2>
+          <p class="section-intro">A first visit usually takes about 20 to 30 minutes. Knowing what to expect makes the day easier, especially if you are bringing an elderly parent or a child.</p>
+          <div class="step-grid">
+            <article class="step">
+              <h3>Send your details</h3>
+              <p>Message the clinic on WhatsApp with the patient's name, age, and a short note about the concern. You will get a confirmed slot for the coming Wednesday.</p>
+            </article>
+            <article class="step">
+              <h3>Bring past records</h3>
+              <p>Carry any earlier prescriptions, MRI or CT films, EEG reports, and the current medicine strips or a photo of them. Old records save time and repeat tests.</p>
+            </article>
+            <article class="step">
+              <h3>Consultation and plan</h3>
+              <p>Dr. Ahmed examines the patient, explains what is likely happening, and writes a plan — medicines, any tests needed, and when to come back.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section appointment" id="appointment">
+        <div class="container appointment-grid">
+          <div>
+            <p class="eyebrow">Appointments</p>
+            <h2>Start with a simple conversation.</h2>
+            <p>Clinic hours are <strong>every Wednesday, 11:00 AM to 3:00 PM</strong>. Fill in the short form and it opens WhatsApp with your message already written — you only have to press send.</p>
+            <ul class="appointment-points">
+              <li>No account or payment needed to request a slot</li>
+              <li>Ask in Hindi or English, whichever you prefer</li>
+              <li>Messages are answered on clinic days</li>
+            </ul>
+            <p><b>Prefer to call?</b></p>
+            <div class="phone-list">
+              <a href="tel:+918809530203"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>88095 30203</a>
+              <a href="tel:+918084657424"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>80846 57424</a>
+            </div>
+          </div>
+
+          <div class="booking-card">
+            <h3>Request an appointment</h3>
+            <p>Your details are not stored on this website. They are only used to write your WhatsApp message.</p>
+            <p class="form-error" id="formError" role="alert"></p>
+            <form id="bookingForm" novalidate>
+              <div class="field">
+                <label for="patientName">Patient name</label>
+                <input type="text" id="patientName" name="patientName" autocomplete="name" placeholder="Full name" required />
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="patientAge">Age</label>
+                  <input type="number" id="patientAge" name="patientAge" min="0" max="120" inputmode="numeric" placeholder="e.g. 54" required />
+                </div>
+                <div class="field">
+                  <label for="visitDate">Preferred Wednesday</label>
+                  <select id="visitDate" name="visitDate"></select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="concern">Main concern</label>
+                <select id="concern" name="concern">
+                  <option>Paralysis or seizures</option>
+                  <option>Pain or nerve symptoms</option>
+                  <option>Memory or behaviour changes</option>
+                  <option>Mood, anxiety or sleep</option>
+                  <option>Child or teenager</option>
+                  <option>Habits or addiction support</option>
+                  <option>Follow-up visit</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="details">Brief note (optional)</label>
+                <textarea id="details" name="details" placeholder="Since when, main symptoms, any tests already done"></textarea>
+              </div>
+              <button type="submit" class="button button-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Zm-8.4 18a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.6.9 1-3.5-.3-.4a9.8 9.8 0 1 1 8.3 4.6Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.9-.9-3.2-1.6-4.5-3.7-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.6l-.9-2.1c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3s1.2 3.5 1.4 3.7c.2.2 2.4 3.7 5.9 5.1 2.2.9 3 .9 4.1.8.7-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+                Continue on WhatsApp
+              </button>
+              <p class="form-note">Opens WhatsApp with your message ready to send.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq reveal" id="faq">
+        <div class="container">
+          <p class="eyebrow">Common questions</p>
+          <h2>Before you come in</h2>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Do I need an appointment, or can I walk in?</summary>
+              <p>Walk-ins are seen when there is room, but Wednesday slots fill up. Sending a WhatsApp message in advance means a shorter wait and a confirmed time.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What should I bring to the visit?</summary>
+              <p>Earlier prescriptions, any MRI, CT or EEG reports and films, a list or photo of current medicines, and the patient's ID if available.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I message on behalf of a family member?</summary>
+              <p>Yes. Most messages come from family members. Please include the patient's name and age, and say how you are related to them.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Which languages can I use?</summary>
+              <p>Hindi or English, on WhatsApp and in the consultation room. Write whichever is easier for you.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Is the clinic accessible for elderly patients?</summary>
+              <p>Yes. The clinic is on Khagaul Road in Phulwari Sharif with vehicle access close to the entrance. Message us beforehand if the patient uses a wheelchair so we can keep a suitable slot.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Do you give advice over WhatsApp?</summary>
+              <p>WhatsApp is used for appointments and simple queries such as timings and directions. Diagnosis and medicines need an in-person consultation.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section location reveal" id="location">
+        <div class="container location-grid">
+          <div class="address-card">
+            <p class="eyebrow">Visit the clinic</p>
+            <h2>Find us easily.</h2>
+            <address>
+              Newton Dwarika Complex,<br />
+              Near Biscuit Factory, Khagaul Road,<br />
+              Phulwari Sharif, Patna – 801505
+            </address>
+            <div class="address-actions">
+              <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Newton+Dwarika+Complex+Near+Biscuit+Factory+Khagaul+Road+Phulwari+Sharif+Patna+801505" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                Get directions
+              </a>
+              <button class="button button-ghost" id="shareButton" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+                <span id="shareLabel">Share clinic details</span>
+              </button>
+            </div>
+          </div>
+          <div class="map-art" role="img" aria-label="Map illustration showing the clinic's location in Phulwari Sharif, Patna">
+            <div class="map-label">
+              <img src="icon.jpeg" alt="" aria-hidden="true" width="40" height="40" />
+              <b>Manovegh</b>
+              <small>Phulwari Sharif, Patna</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img class="footer-logo" src="icon.jpeg" alt="Manovegh Mind Neuro Clinic logo" width="54" height="54" />
+            <div>
+              <b>Manovegh</b>
+              <p>Mind Neuro Clinic · Better Mind, Better Life. Consultations with Dr. S. Ahmed, MBBS, MD.</p>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Clinic</h4>
+            <ul>
+              <li><a href="#about">About the doctor</a></li>
+              <li><a href="#services">Treatments</a></li>
+              <li><a href="#visit">Your visit</a></li>
+              <li><a href="#faq">Questions</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Reach us</h4>
+            <ul>
+              <li><a href="tel:+918809530203">88095 30203</a></li>
+              <li><a href="tel:+918084657424">80846 57424</a></li>
+              <li><a data-wa="Hello Manovegh Mind Neuro Clinic. I have a question about appointments." href="#appointment">WhatsApp the clinic</a></li>
+              <li>Wednesdays, 11 AM – 3 PM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-inner">
+          <span><b>Manovegh</b> · Dr. S. Ahmed</span>
+          <span>© <span id="year"></span> · Phulwari Sharif, Patna</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="to-top" id="toTop" type="button" aria-label="Back to top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <div class="wa-widget">
+      <div class="wa-panel" id="waPanel" role="dialog" aria-label="Chat with Manovegh on WhatsApp" aria-modal="false">
+        <div class="wa-head">
+          <img src="icon.jpeg" alt="" aria-hidden="true" width="42" height="42" />
+          <div>
+            <b>Manovegh Clinic</b>
+            <small id="waStatus">Typically replies on clinic days</small>
+          </div>
+          <button class="wa-close" id="waClose" type="button" aria-label="Close WhatsApp chat options">✕</button>
+        </div>
+        <div class="wa-body">
+          <div class="wa-bubble">
+            Hello! 👋 How can we help you today? Choose an option and WhatsApp will open with your message ready.
+            <time id="waTime"></time>
+          </div>
+          <div class="wa-options">
+            <a data-wa="Hello Manovegh Mind Neuro Clinic. I would like to book an appointment with Dr. S. Ahmed." href="#appointment"><span aria-hidden="true">📅</span> Book an appointment</a>
+            <a data-wa="Hello Manovegh Mind Neuro Clinic. Could you please confirm this week's timings?" href="#appointment"><span aria-hidden="true">🕑</span> Ask about timings</a>
+            <a data-wa="Hello Manovegh Mind Neuro Clinic. Could you please share the clinic location and directions?" href="#appointment"><span aria-hidden="true">📍</span> Get directions</a>
+            <a data-wa="Hello Manovegh Mind Neuro Clinic. I would like to ask about a symptom before booking." href="#appointment"><span aria-hidden="true">💬</span> Ask about a symptom</a>
+          </div>
+        </div>
+        <div class="wa-foot">You will be taken to WhatsApp to send the message.</div>
+      </div>
+
+      <span class="wa-tip" id="waTip">Book on WhatsApp</span>
+      <button class="wa-launcher" id="waLauncher" type="button" aria-label="Open WhatsApp chat options" aria-expanded="false" aria-controls="waPanel">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4 1.5 5.8L.2 23.5l6.1-1.6a11.7 11.7 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.4-8.1Zm-8.4 18a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.6.9 1-3.5-.3-.4a9.8 9.8 0 1 1 8.3 4.6Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-1.9-.9-3.2-1.6-4.5-3.7-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.6l-.9-2.1c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 3s1.2 3.5 1.4 3.7c.2.2 2.4 3.7 5.9 5.1 2.2.9 3 .9 4.1.8.7-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Structured data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Manovegh — Mind Neuro Clinic",
+      "slogan": "Better Mind, Better Life",
+      "logo": "icon.jpeg",
+      "image": "icon.jpeg",
+      "description": "Neurological and mental health consultations with Dr. S. Ahmed, MBBS, MD, in Phulwari Sharif, Patna.",
+      "telephone": "+91-88095-30203",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Newton Dwarika Complex, Near Biscuit Factory, Khagaul Road",
+        "addressLocality": "Phulwari Sharif, Patna",
+        "addressRegion": "Bihar",
+        "postalCode": "801505",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Wednesday",
+        "opens": "11:00",
+        "closes": "15:00"
+      }],
+      "availableLanguage": ["Hindi", "English"],
+      "medicalSpecialty": ["Neurologic", "Psychiatric"],
+      "employee": {
+        "@type": "Physician",
+        "name": "Dr. S. Ahmed",
+        "jobTitle": "Neuro Physician",
+        "hasCredential": "MBBS, MD"
+      }
+    }
+    </script>
+
+    <script>
+      (function () {
+        'use strict';
+
+        /* ====== Clinic settings — change these in one place ====== */
+        var WA_NUMBER   = '918809530203';   // WhatsApp number, country code, no + or spaces
+        var CLINIC_DAY  = 3;                // 0 = Sunday … 3 = Wednesday
+        var OPEN_HOUR   = 11;               // 11:00 AM IST
+        var CLOSE_HOUR  = 15;               // 3:00 PM IST
+
+        /* ====== WhatsApp link builder ====== */
+        function waLink(message) {
+          return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(message);
+        }
+
+        // Every element with data-wa becomes a real WhatsApp link.
+        // The href in the HTML is the no-JavaScript fallback.
+        document.querySelectorAll('[data-wa]').forEach(function (el) {
+          el.setAttribute('href', waLink(el.getAttribute('data-wa')));
+          el.setAttribute('target', '_blank');
+          el.setAttribute('rel', 'noopener');
+        });
+
+        /* ====== Clinic time in IST, whatever the visitor's timezone ====== */
+        function istNow() {
+          var now = new Date();
+          var utc = now.getTime() + now.getTimezoneOffset() * 60000;
+          return new Date(utc + 5.5 * 3600000);
+        }
+
+        function isOpenNow() {
+          var t = istNow();
+          var mins = t.getHours() * 60 + t.getMinutes();
+          return t.getDay() === CLINIC_DAY && mins >= OPEN_HOUR * 60 && mins < CLOSE_HOUR * 60;
+        }
+
+        function nextClinicDates(count) {
+          var t = istNow();
+          var dates = [];
+          var d = new Date(t.getFullYear(), t.getMonth(), t.getDate());
+          // If today is clinic day and the clinic has not closed yet, today still counts.
+          var closedForToday = t.getDay() === CLINIC_DAY && (t.getHours() * 60 + t.getMinutes()) >= CLOSE_HOUR * 60;
+          if (d.getDay() !== CLINIC_DAY || closedForToday) {
+            do { d.setDate(d.getDate() + 1); } while (d.getDay() !== CLINIC_DAY);
+          }
+          for (var i = 0; i < count; i++) {
+            dates.push(new Date(d));
+            d.setDate(d.getDate() + 7);
+          }
+          return dates;
+        }
+
+        function formatDate(d) {
+          return d.toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+        }
+
+        /* ====== Open / closed indicator ====== */
+        var chip = document.getElementById('statusChip');
+        var statusText = document.getElementById('statusText');
+        var waStatus = document.getElementById('waStatus');
+
+        function renderStatus() {
+          var open = isOpenNow();
+          var next = nextClinicDates(1)[0];
+          if (open) {
+            chip.classList.add('is-open');
+            statusText.textContent = 'Open now · closes at 3:00 PM';
+            waStatus.textContent = 'Online now · we usually reply quickly';
+          } else {
+            chip.classList.remove('is-open');
+            statusText.textContent = 'Next clinic: ' + next.toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'short' }) + ', 11 AM – 3 PM';
+            waStatus.textContent = 'Message anytime · replies on clinic days';
+          }
+        }
+        renderStatus();
+        setInterval(renderStatus, 60000);
+
+        /* ====== Navigation ====== */
+        var menuButton = document.getElementById('menuButton');
+        var navLinks = document.getElementById('navLinks');
+        var header = document.getElementById('header');
+
+        menuButton.addEventListener('click', function () {
+          var isOpen = navLinks.classList.toggle('open');
+          menuButton.setAttribute('aria-expanded', String(isOpen));
+          menuButton.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+        });
+
+        navLinks.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            navLinks.classList.remove('open');
+            menuButton.setAttribute('aria-expanded', 'false');
+            menuButton.setAttribute('aria-label', 'Open menu');
+          });
+        });
+
+        var toTop = document.getElementById('toTop');
+        window.addEventListener('scroll', function () {
+          header.classList.toggle('scrolled', window.scrollY > 5);
+          toTop.classList.toggle('show', window.scrollY > 600);
+        }, { passive: true });
+
+        toTop.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        /* ====== Appointment form → prefilled WhatsApp message ====== */
+        var visitDate = document.getElementById('visitDate');
+        nextClinicDates(4).forEach(function (d, i) {
+          var opt = document.createElement('option');
+          opt.value = formatDate(d);
+          opt.textContent = (i === 0 ? 'Next: ' : '') + d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
+          visitDate.appendChild(opt);
+        });
+        var anyDate = document.createElement('option');
+        anyDate.value = 'any upcoming Wednesday';
+        anyDate.textContent = 'Any upcoming Wednesday';
+        visitDate.appendChild(anyDate);
+
+        var form = document.getElementById('bookingForm');
+        var formError = document.getElementById('formError');
+
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          var name = form.patientName.value.trim();
+          var age = form.patientAge.value.trim();
+          var date = form.visitDate.value;
+          var concern = form.concern.value;
+          var details = form.details.value.trim();
+
+          if (!name) {
+            formError.textContent = 'Please add the patient\u2019s name so we can note the appointment.';
+            formError.classList.add('show');
+            form.patientName.focus();
+            return;
+          }
+          if (!age) {
+            formError.textContent = 'Please add the patient\u2019s age.';
+            formError.classList.add('show');
+            form.patientAge.focus();
+            return;
+          }
+          formError.classList.remove('show');
+
+          var lines = [
+            'Hello Manovegh Mind Neuro Clinic,',
+            '',
+            'I would like to request an appointment with Dr. S. Ahmed.',
+            '',
+            'Patient name: ' + name,
+            'Age: ' + age,
+            'Main concern: ' + concern,
+            'Preferred day: ' + date
+          ];
+          if (details) {
+            lines.push('Details: ' + details);
+          }
+          lines.push('', 'Please confirm a time. Thank you.');
+
+          window.open(waLink(lines.join('\n')), '_blank', 'noopener');
+        });
+
+        /* ====== Floating WhatsApp panel ====== */
+        var launcher = document.getElementById('waLauncher');
+        var panel = document.getElementById('waPanel');
+        var waClose = document.getElementById('waClose');
+        var waTip = document.getElementById('waTip');
+
+        document.getElementById('waTime').textContent = new Date().toLocaleTimeString('en-IN', { hour: 'numeric', minute: '2-digit' });
+
+        function setPanel(open) {
+          panel.classList.toggle('open', open);
+          launcher.setAttribute('aria-expanded', String(open));
+          launcher.setAttribute('aria-label', open ? 'Close WhatsApp chat options' : 'Open WhatsApp chat options');
+          if (open) { hideTip(); }
+        }
+
+        function hideTip() {
+          if (!waTip || waTip.hidden) { return; }
+          waTip.classList.add('hide');
+          setTimeout(function () { waTip.hidden = true; }, 300);
+        }
+
+        launcher.addEventListener('click', function () {
+          setPanel(!panel.classList.contains('open'));
+        });
+        waClose.addEventListener('click', function () {
+          setPanel(false);
+          launcher.focus();
+        });
+        panel.querySelectorAll('.wa-options a').forEach(function (a) {
+          a.addEventListener('click', function () { setPanel(false); });
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && panel.classList.contains('open')) {
+            setPanel(false);
+            launcher.focus();
+          }
+        });
+        document.addEventListener('click', function (e) {
+          if (panel.classList.contains('open') && !panel.contains(e.target) && !launcher.contains(e.target)) {
+            setPanel(false);
+          }
+        });
+        setTimeout(hideTip, 7000);
+
+        /* ====== Share the clinic (WhatsApp / native share) ====== */
+        var shareButton = document.getElementById('shareButton');
+        var shareLabel = document.getElementById('shareLabel');
+        var shareText = 'Manovegh — Mind Neuro Clinic, Dr. S. Ahmed (MBBS, MD, Neuro Physician). Newton Dwarika Complex, Near Biscuit Factory, Khagaul Road, Phulwari Sharif, Patna – 801505. Wednesdays 11 AM – 3 PM. Phone: 88095 30203';
+
+        shareButton.addEventListener('click', function () {
+          var url = window.location.href;
+          if (navigator.share) {
+            navigator.share({ title: 'Manovegh — Mind Neuro Clinic', text: shareText, url: url }).catch(function () {});
+            return;
+          }
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(shareText + ' ' + url).then(function () {
+              shareLabel.textContent = 'Details copied';
+              setTimeout(function () { shareLabel.textContent = 'Share clinic details'; }, 2200);
+            }).catch(function () {
+              window.open('https://wa.me/?text=' + encodeURIComponent(shareText + ' ' + url), '_blank', 'noopener');
+            });
+            return;
+          }
+          window.open('https://wa.me/?text=' + encodeURIComponent(shareText + ' ' + url), '_blank', 'noopener');
+        });
+
+        /* ====== Gentle section reveal ====== */
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var revealables = document.querySelectorAll('.reveal');
+        if (reduceMotion || !('IntersectionObserver' in window)) {
+          revealables.forEach(function (el) { el.classList.add('visible'); });
+        } else {
+          var observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.12 });
+          revealables.forEach(function (el) { observer.observe(el); });
+        }
+      })();
+    </script>
+  </body>
+</html>
